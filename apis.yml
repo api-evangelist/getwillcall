@@ -54,3 +54,10 @@ x-enrichment:
   notes: getwillcall.com no longer resolves (DNS SERVFAIL/NXDOMAIN); WillCall was a
     live-music ticketing app acquired by Ticketfly in 2014 and shut down in 2016 -
     no live API, docs, packages, or event surface exist to enrich.
+x-lifecycle:
+  state: shuttered
+  reason: domain-does-not-resolve
+  observed: '2026-09-27'
+  detail: >-
+    The company's own domain returned no A or AAAA record when probed. This is an observation about the domain, not a request from the company.
+  indexed: false
